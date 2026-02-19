@@ -8,11 +8,14 @@ public class p4 {
                 this.age = age;
             }
         }
+        int getAge() {
+            return age;
+        }
     }
     public static void main(String[] args) {
         Person p1 = new Person(-5);
-        System.out.println(p1.age);
+        System.out.println(p1.getAge());
         Person p2 = new Person(25);
-        System.out.println(p2.age);
+        System.out.println(p2.getAge());
     }
 }
