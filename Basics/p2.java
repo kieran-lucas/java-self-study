@@ -25,7 +25,7 @@ public class p2 {
         Person p2 = new Person();
         p2.age = 20;
         changePerson(p2);
-        System.out.println(p2);
+        System.out.println(p2.age);
 
 
 
